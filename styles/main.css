@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: roboto;
+}
+
+body {
+  background-color: #DEDEDE;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #DEDEDE;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 1.2em;
+}
+
+header img {
+  height: 50px;
+  width: auto;
+}
+
+header ul {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 24%;
+}
+
+header ul .btnconnexion {
+  background-color: #26AF5F;
+  padding: 15px;
+  border-radius: 5px;
+  color: #DEDEDE;
+}
+
+#home {
+  padding-top: 65px;
+  padding-bottom: 200px;
+  display: flex;
+  font-size: 1.4em;
+}
+
+#home .homeleft {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+}
+
+#home .homeleft h1 {
+  font-size: 2em;
+}
+
+#home .homeleft .qualifications {
+  width: 80%;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.imgqualifications {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imgqualifications img {
+  height: auto;
+  width: 50px;
+}
+
+.txtqualifications {
+  margin-top: 20px;
+  display: flex;
+}
+
+.txtqualifications p {
+  width: 100%;
+  font-weight: bold;
+
+}
+
+#home .homeleft .text {
+  margin-top: 20px;
+}
+
+#home .homeright {
+  width: 40%;
+  margin-right: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#home .homeright ul li {
+  margin-top: 40px;
+  font-weight: bold;
+  color: #DEDEDE;
+  width: 200px;
+  background-color: #26AF5F;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  font-weight: bold;
+  font-size: 1em;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  background-color: #212121;
+  color: #DEDEDE;
+  display: flex;
+  position: sticky;
+  bottom: 0;
+}
+
+footer p {
+  width: 60%;
+  text-align: left;
+  padding-left: 100px;
+}
+
+footer ul {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
