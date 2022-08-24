@@ -20,19 +20,7 @@ h2
     top: 35px;
     position: sticky;
 }
-#LV1
-{
-    display:flex;
-}
-#LV2
-{
-    display:flex;
-}
-#LV3
-{
-    display:flex;
-}
-#LV4
+#LVL
 {
     display:flex;
 }
@@ -48,9 +36,10 @@ h2
 
 .colorbox p
 {
+    position: absolute;
     color: #DEDEDE;
     font-size: 22px;
-    margin-top: 130px;
+    margin-top: 135px;
     padding: 25px;
     transition: all 1s;
 }
@@ -61,10 +50,11 @@ h2
     width: auto;
     height: 40px;
     opacity: 0;
-    position:absolute;
+    position:relative;
     transition: all 1s ;
     margin-top: 155px;
     z-index: 0;
+    margin-left: 82%;
 }
 
 .colorbox:hover p
