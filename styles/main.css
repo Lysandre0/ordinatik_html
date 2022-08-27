@@ -21,11 +21,13 @@ body {
 h2 {
   text-align: center;
   text-transform: uppercase;
-  font-size: 2em;
-  position: sticky;
+  font-size: 2.5vw;
+  position:sticky;
   top: 3.5vh;
-  z-index: 999;
+  z-index: 997;
   margin: 5vh;
+  width: 30vw;
+  margin-left: 35vw;
 }
 
 /*HEADER*/
@@ -39,11 +41,12 @@ header {
   top:0;
   background-color: #DEDEDE;
   padding: 3vh 4vw 3vh 4vw;
-  z-index: 999;
+  z-index: 997;
 }
 .imglogo img {
   width: 20vw;
   height: auto;
+  z-index: 999;
 }
 header ul {
   display: flex;
@@ -52,6 +55,7 @@ header ul {
   align-items: center;
   font-size: 1.2vw;
   font-weight: bold;
+  z-index: 999;
 }
 .connexion a{
   background: #26AF5F;

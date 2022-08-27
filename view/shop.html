@@ -11,52 +11,75 @@
       media="screen"
       href="../styles/shop.css"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../styles/main.css"
+    />
   </head>
   <body>
     <header>
-      <a><img /></a>
-      <p>Assistance</p>
-      <a><img src="../public/ordinatik.png" alt="" /></a>
+      <a href="#home" class="imglogo">
+        <img src="../public/ordinatik.png" alt="" />
+      </a>
       <ul>
-        <li><a href="">Connexion</a></li>
-        <li><a href="">Inscription</a></li>
+        <li class="connexion"><a href="Connexion">Connexion</a></li>
+        <li class="inscription"><a href="">Inscription</a></li>
       </ul>
     </header>
     <section>
-      <article>
-        <div></div>
-      </article>
-      <article>
-        <h2>Lorem Ipsum</h2>
-        <div>
-          <img />
+      <h2>Assistance</h2>
+      <img class="contentbox" />
+      <article class="content">
+        <h3>Lorem ipsum dolor sit amet</h3>
+        <div class="review">
+          <img src="../public/star.svg" />
+          <img src="../public/star.svg" />
+          <img src="../public/star.svg" />
+          <img src="../public/star.svg" />
+          <img src="../public/star.svg" />
           <p>3 avis</p>
         </div>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
-          </p>
+        <p class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <div class="purchase">
+          <div class="quantity">
+            <p>-</p>
+            <p>1</p>
+            <p>+</p>
+          </div>
+          <div class="prices">
+            <p>20€</p>
+            <a href="">Ajouter</a>
+          </div>
         </div>
-        <div>
-        <p>+</p>
-        <p>1</p>
-        <p>-</p>
-        
-        <p>20€</p>
-        <a>Ajouter</a>
       </article>
     </section>
-    <section>
-      <h2></h2>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+    <section id="lastsection">
+      <h3>Produits similaires</h3>
+      <article class="otherproducts">
+        <a href="">
+          <img />
+          <p>Lorem ipsum ad dolor sit amet</p>
+        </a>
+        <a href="">
+          <img />
+          <p>Lorem ipsum ad dolor sit amet</p>
+        </a>
+        <a href="">
+          <img />
+          <p>Lorem ipsum ad dolor sit amet</p>
+        </a>
+        <a href="">
+          <img />
+          <p>Lorem ipsum ad dolor sit amet</p>
+        </a>
+      </article>
     </section>
     <footer>
       <p>Ordinatik © 2022 All rights reserved</p>

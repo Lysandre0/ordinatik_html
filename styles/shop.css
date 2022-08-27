@@ -1,0 +1,150 @@
+*
+{ 
+  margin: 0; 
+  padding:0; 
+  list-style: none;
+  font-family: roboto;
+  text-decoration:none;
+}
+
+@font-face
+{font-family: "roboto";
+  src: url("../public/Roboto-Regular.ttf") format("truetype");
+}
+
+
+.content
+{
+
+    font-size:1.5vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vw;
+    width: 42vw;
+    margin-left: 37vw
+}
+
+.contentbox
+{
+    background-color: blue;
+    height: 15vw;
+    width: 15vw;
+    margin-top: 5vw;
+    margin-left: 20vw;
+    position: absolute;
+    border-radius: 3vh;
+}
+
+.content h3
+{
+    margin-bottom: 1vw;
+}
+
+.review
+{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 1vw;
+    width: 20vw;
+}
+
+.review p
+{
+    padding-left: 1vw;
+    text-align: right;
+    font-weight: bold;
+}
+
+.description
+{
+    font-size: 1.2vw;
+    text-align:justify ;
+}
+
+.purchase
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1vw;
+    font-weight: bold;
+}
+
+.quantity
+{
+    display:flex;
+    flex-direction: row;
+}
+
+.quantity p
+{
+    display:flex;
+    flex-direction: row;
+    width: 2.5vw;
+    justify-content: space-around;
+    padding: 0.8vw 0 0.8vw 0;
+}
+
+.prices
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 15vw;
+}
+
+.prices p
+{ 
+    padding: 0.8vw 0 0.8vw 0;
+}
+
+.prices a
+{
+    padding: 0.8vw 2vw 0.8vw 2vw;
+    background: #26AF5F;
+    border-radius: 1vh;
+}
+
+.otherproducts
+{
+   align-items: center;
+   height: 5vw;
+   width: 80vw;=
+   display: flex;
+   flex-direction: row;
+   margin-left: 10vw;
+   margin-bottom: 10vw;
+   justify-content: space-around;
+}
+
+#lastsection h3
+{
+    text-align: center;
+    margin: 2vw 4vw 1vw 0;
+    width: 45vw;
+}
+
+.otherproducts a
+{
+    display: flex;
+    width:15vw;
+}
+
+.otherproducts  a img
+{
+    background-color: cadetblue;
+    height: 6vw;
+    width: 10vw;
+    border-radius: 1.8vh;
+}
+
+.otherproducts a p
+{
+    margin-top: 1vw;
+    margin-left: 0.5vw;
+    font-size: 1vw;
+    color: #212121;
+    text-align: left;
+}
+
+
