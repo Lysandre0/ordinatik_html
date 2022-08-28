@@ -1,35 +1,23 @@
-*
-{ 
-  margin: 0; 
-  padding:0; 
-  list-style: none;
-  font-family: roboto;
-  text-decoration:none;
-}
-
-@font-face
-{font-family: "roboto";
-  src: url("../public/Roboto-Regular.ttf") format("truetype");
-}
-
-
 .content
 {
 
     font-size:1.5vw;
     display: flex;
     flex-direction: column;
-    padding-top: 5vw;
+    padding-top: 3.6vw;
     width: 42vw;
     margin-left: 37vw
 }
-
+.titlebox{
+    position: relative;
+    top: -1.8vh;
+}
 .contentbox
 {
     background-color: blue;
     height: 15vw;
     width: 15vw;
-    margin-top: 5vw;
+    margin-top: 3.6vw;
     margin-left: 20vw;
     position: absolute;
     border-radius: 3vh;
@@ -44,10 +32,14 @@
 {
     display:flex;
     flex-direction: row;
+    align-items: center;
     margin-bottom: 1vw;
     width: 20vw;
 }
-
+.review img{
+    height: 1.5vw;
+    width: auto;
+}
 .review p
 {
     padding-left: 1vw;
@@ -59,6 +51,7 @@
 {
     font-size: 1.2vw;
     text-align:justify ;
+    margin-right: 1vw;
 }
 
 .purchase
@@ -66,6 +59,7 @@
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin-top: 1vw;
     font-weight: bold;
 }
@@ -109,20 +103,20 @@
 {
    align-items: center;
    height: 5vw;
-   width: 80vw;
-   
+   width: 70vw;
    display: flex;
    flex-direction: row;
-   margin-left: 10vw;
-   margin-bottom: 10vw;
+   margin-left: 13.5vw;
+   margin-bottom: 7.8vw;
    justify-content: space-around;
 }
 
 #lastsection h3
 {
     text-align: center;
-    margin: 1.5vw 4vw 2vw 0;
+    margin: 3vw 4vw 2vw 0;
     width: 45vw;
+    font-size: 1.5vw;
 }
 
 .otherproducts a
