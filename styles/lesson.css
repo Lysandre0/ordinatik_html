@@ -1,0 +1,38 @@
+body
+{
+    justify-content: center;
+}
+section
+{
+    margin-top: 9vw;
+    flex-wrap: wrap;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+section a
+{
+    background-color: cadetblue;
+    height: 31vh;
+    width: 15vw;
+    margin: 2vw 5vw 2vw 5vw;
+    border-radius: 2.5vh;
+    font-size: 2vw;
+}
+
+.infos
+{
+    color: #DEDEDE;
+    margin-left: 2vw;
+    margin-top: 20vh;
+}
+
+.title
+{
+    font-weight: bold;
+}
+
+.text
+{
+    font-size :1.5vw;
+}

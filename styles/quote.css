@@ -1,0 +1,129 @@
+#all
+{
+    height: auto;
+    width: 100vw;
+    margin-top: 6vw;
+    margin-bottom: 12vw;
+}
+.content
+{
+
+    font-size:1.5vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3.6vw;
+    width: 42vw;
+    margin-left: 37vw
+}
+
+.contentbox
+{
+    background-color: indianred;
+    height: 15vw;
+    width: 15vw;
+    margin-top: 3.6vw;
+    margin-left: 20vw;
+    position: absolute;
+    border-radius: 3vh;
+}
+
+.content h3
+{
+    margin-bottom: 1vw;
+}
+
+.review
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1vw;
+    width: 20vw;
+}
+.review img{
+    height: 1.5vw;
+    width: auto;
+}
+.review p
+{
+    padding-left: 1vw;
+    text-align: right;
+    font-weight: bold;
+}
+
+textarea
+{
+    font-size: 1vw;
+    padding: 1vw;
+    line-height: 1.5;
+    background-color: #DEDEDE;
+    font-size: 1.2vw;
+    border:none;
+}
+
+.send
+{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 33vw;
+    margin-top: 1vw;
+    font-weight: bold;
+}
+
+
+
+.send a
+{
+    padding: 0.8vw 2vw 0.8vw 2vw;
+    background-color: #26AF5F;
+    border-radius: 1vh;
+}
+
+#lastsection
+{
+    margin-top: 2vw;
+}
+.otherproducts
+{
+   align-items: center;
+   width: 70vw;
+   display: flex;
+   flex-direction: row;
+   margin-left: 13.5vw;
+   justify-content: left;
+}
+
+#lastsection h3
+{
+    text-align: center;
+    margin: 3vw 4vw 2vw 0;
+    width: 45vw;
+    font-size: 1.5vw;
+}
+
+.otherproducts a
+{
+    display: flex;
+    width:15vw;
+}
+
+.otherproducts  a img
+{
+    background-color: darkolivegreen;
+    height: 6vw;
+    width: 6vw;
+    border-radius: 1.8vh;
+}
+
+.otherproducts a p
+{
+    margin-top: 1vw;
+    margin-left: 0.5vw;
+    font-size: 1vw;
+    color: #212121;
+    text-align: left;
+}
+
+
+
