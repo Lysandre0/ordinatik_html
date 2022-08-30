@@ -2,6 +2,10 @@
 {
     display: flex;
 }
+
+.titlebox{
+    margin-top: 0;
+}
 /* LEFT SIDE */
 #leftside
 {
@@ -54,7 +58,8 @@
 
 #category-select option
 {
-    color: #DEDEDE;
+    background: #DEDEDE;
+    color: #212121;
 }
 
 #message
@@ -66,14 +71,17 @@
 }
 
 .ask a
-{   
-    color: #DEDEDE;
+{  
     font-weight: bold;
-    border-radius: 1vh;
-    background-color: #26AF5F;
-    padding: 0.5vw 1.5vw 0.5 vw 1.5vw;
+    margin-left: 30vw;
+    align-items: center;
+    text-align: center;
     width: 9vw;
+    background-color: #26AF5F;
+    padding:  0.8vw 0 0.8vw 0;
+    border-radius: 1vh;
 }
+    
 
 /* RIGHT SIDE */
 
@@ -107,9 +115,24 @@
    font-size: 1.8vw;
 }
 
-.ourcenters div
+.brandlogo
+{
+}
+
+.ourcenters div 
+{
+    padding-left: 2vw;
+}
+.brandinfos
+{
+    margin-left: 2vw;
+    padding-top: 3vw;
+    text-align: center;
+    margin-left: 2vw;
+}
+.city
 {
     padding-top: 3vw;
     text-align: center;
-margin-left: 3vw;
+    margin-left: 3vw;
 }

@@ -1,0 +1,60 @@
+.titleheader
+{
+    margin-top: 0;
+}
+
+.inscription a{
+    background: #26AF5F;
+    padding: 1vw;
+    border-radius: 1vh;
+    box-shadow: 0 0.8vh 0 #1e8c4c;
+  }
+  .inscription a:hover{
+    background: #15c05c;
+    box-shadow: 0 0.8vh 0 #109a4a;
+  }
+  .inscription a:focus{  
+    position: relative;
+    top: 1vh;
+    background: #34a161;
+    box-shadow: 0 0 0 #1e8c4c;
+  }
+.log_in_page
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vw;
+    height:29vw ;
+
+}
+
+.log_in_page h3
+{
+    color: #212121;
+    margin-bottom: 1vw;
+}
+
+.log_in_page input
+{
+    padding: 0.5vw;
+    border-radius: 1vh;
+    margin-bottom: 1vw;
+}
+
+.log_in_page a
+{ 
+    font-size: 1.5vw;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    justify-content: center;
+    width: 9vw;
+    border-radius: 1vh;
+    
+    margin-top: 1.5vw;
+  background: #26AF5F;
+    
+}
