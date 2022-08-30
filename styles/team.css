@@ -1,0 +1,69 @@
+.content
+{
+    font-size:1.5vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3.6vw;
+    width: 60vw;
+    color: #212121;
+}
+
+
+section img
+{
+    background-color: grey;
+    height: 22vw;
+    width: 23vw;
+    position: absolute;
+}
+
+h3
+{
+    text-transform: uppercase;
+}
+
+.description
+{
+    margin: 1.5vh 0 2vh 0;
+    font-weight:500;
+    margin-bottom: 5vw;
+}
+
+.job 
+{
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.cvleft .content
+{
+    margin-left:34vw;
+    text-align: left;
+}
+
+.cvleft h3
+{
+
+}
+
+.cvleft img
+{
+    margin-left: 8vw;
+    margin-top: 3.5vw;
+}
+
+.cvright .content
+{
+    margin-left: 6vw;
+    text-align: right;
+}
+
+.cvright h3
+{
+}
+
+
+.cvright img
+{
+    margin-top: 3.5vw;
+    margin-left: 70vw;
+}

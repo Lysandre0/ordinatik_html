@@ -10,8 +10,10 @@ section
     align-items: center;
     justify-content: space-around;
 }
-section a
+.lessoncolorbox
 {
+    display: flex;
+    flex-direction: row;
     background-color: cadetblue;
     height: 31vh;
     width: 15vw;
@@ -20,12 +22,34 @@ section a
     font-size: 2vw;
 }
 
-.infos
+.lessoncolorbox .infos
 {
     color: #DEDEDE;
     margin-left: 2vw;
     margin-top: 20vh;
+    transition: all 1s;
+    width: 10vw;
 }
+
+.lessoncolorbox:hover .infos{
+    margin-top: 3vh;
+  }
+
+.lessoncolorbox img
+{
+  opacity: 0;
+  height: 6vh;
+  width: auto;
+  margin: 23vh 1vw 0 0;
+  filter: invert(1);
+  transition: all 1s;
+}
+
+.lessoncolorbox:hover img
+{
+   opacity: 1;
+}
+
 
 .title
 {
