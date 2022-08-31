@@ -237,6 +237,7 @@ footer {
   position: sticky;
   bottom: 0;
   font-weight: bold;
+  z-index:999;
 }
 footer ul {
   display: flex;

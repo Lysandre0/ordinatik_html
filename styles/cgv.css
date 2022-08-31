@@ -1,0 +1,17 @@
+.titleheader
+{
+    margin-top: 0;
+}
+
+.content
+{
+    color: #212121;
+    font-size: 1.5vw;
+    margin: 5vw;
+}
+
+.content h3
+{
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}

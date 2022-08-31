@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ORDINATIK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../styles/main.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../styles/sign_in.css"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="../view/index.html" class="imglogo">
+        <img src="../public/ordinatik.png" alt="" />
+      </a>
+      <ul>
+        <li class="inscription" style="visibility: hidden">
+          <a href="">Inscription</a>
+        </li>
+        <li class="connexion"><a href="../view/login.html">Connexion</a></li>
+      </ul>
+    </header>
+    <h2 class="titleheader">Inscription</h2>
+    <section>
+      <article class="sign_in_page">
+        <h3>Identité</h3>
+        <div>
+          <input type="text" id="name" placeholder="Prénom" />
+          <input type="text" id="familyname" placeholder="Nom" />
+        </div>
+        <div class="gender_date">
+          <select name="gender" id="gender">
+            <option value="">Civilité</option>
+            <option value="woman">Femme</option>
+            <option value="man">Homme</option>
+            <option value="other">Autre</option>
+          </select>
+          <input type="date" id="date" placeholder="Date de naissance" />
+        </div>
+        <div>
+          <input type="text" id="adresse" placeholder="Adresse" />
+          <input type="number" id="postcode" placeholder="Code Postal" />
+        </div>
+        <h3>Mail</h3>
+        <div>
+          <input type="email" id="email" placeholder="Adresse email" />
+          <input
+            type="email"
+            id="email"
+            placeholder="Confirmez adresse email"
+          />
+        </div>
+        <h3>Mot de passe</h3>
+        <div>
+          <input type="password" id="password" placeholder="Mot de passe" />
+          <input
+            type="password"
+            id="password"
+            placeholder="Confirmez mot de passe"
+          />
+        </div>
+        <a href="">Valider</a>
+      </article>
+    </section>
+    <footer>
+      <p>Ordinatik © 2022 All rights reserved</p>
+      <ul>
+        <li><a href="../view/cgu.html">Cgu</a></li>
+        <li><a href="../view/cgv.html">Cgv</a></li>
+        <li><a href="../view/confidentiality.html">Confidentialité</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

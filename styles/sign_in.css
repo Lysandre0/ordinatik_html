@@ -3,46 +3,51 @@
     margin-top: 0;
 }
 
-.inscription a{
-    background: #26AF5F;
-    padding: 1vw;
-    border-radius: 1vh;
-    box-shadow: 0 0.8vh 0 #1e8c4c;
-  }
-  .inscription a:hover{
-    background: #15c05c;
-    box-shadow: 0 0.8vh 0 #109a4a;
-  }
-  .inscription a:focus{  
-    position: relative;
-    top: 1vh;
-    background: #34a161;
-    box-shadow: 0 0 0 #1e8c4c;
-  }
-.log_in_page
+.sign_in_page
 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10vw;
-    height:29vw ;
-
+    margin-top: 5vw;
+    height:34vw ;
 }
 
-.log_in_page h3
+.sign_in_page h3
 {
     color: #212121;
     margin-bottom: 1vw;
 }
 
-.log_in_page input
+.sign_in_page input
 {
+    border: none;
     padding: 0.5vw;
     border-radius: 1vh;
     margin-bottom: 1vw;
+    width: 13vw;
 }
 
-.log_in_page a
+.gender_date
+{
+    display: flex;
+    width: 28.5vw;
+    justify-content: space-between;
+}
+.sign_in_page select
+{
+    border: none;
+    padding: 0.5vw;
+    border-radius: 1vh;
+    margin-bottom: 1vw;
+    width: 14vw;
+}
+.sign_in_page #date
+{
+    padding: 0.5vw;
+    width: 13vw;
+}
+
+.sign_in_page a
 { 
     font-size: 1.5vw;
     font-weight: bold;
